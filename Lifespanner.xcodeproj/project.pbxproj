@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6E86D6F227EEB38A0077B95F /* Lifespan WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 6E86D6F127EEB38A0077B95F /* Lifespan WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		6E86D6F227EEB38A0077B95F /* Lifespanner WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 6E86D6F127EEB38A0077B95F /* Lifespanner WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		6E86D6F727EEB38B0077B95F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E86D6F627EEB38B0077B95F /* Assets.xcassets */; };
-		6E86D6FD27EEB38B0077B95F /* Lifespan WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 6E86D6FC27EEB38B0077B95F /* Lifespan WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		6E86D6FD27EEB38B0077B95F /* Lifespanner WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 6E86D6FC27EEB38B0077B95F /* Lifespanner WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		6E86D70227EEB38B0077B95F /* LifespanApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E86D70127EEB38B0077B95F /* LifespanApp.swift */; };
 		6E86D70427EEB38B0077B95F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E86D70327EEB38B0077B95F /* ContentView.swift */; };
 		6E86D70627EEB38B0077B95F /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E86D70527EEB38B0077B95F /* NotificationController.swift */; };
@@ -53,7 +53,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				6E86D6FD27EEB38B0077B95F /* Lifespan WatchKit Extension.appex in Embed App Extensions */,
+				6E86D6FD27EEB38B0077B95F /* Lifespanner WatchKit Extension.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -64,7 +64,7 @@
 			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
 			dstSubfolderSpec = 16;
 			files = (
-				6E86D6F227EEB38A0077B95F /* Lifespan WatchKit App.app in Embed Watch Content */,
+				6E86D6F227EEB38A0077B95F /* Lifespanner WatchKit App.app in Embed Watch Content */,
 			);
 			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -72,10 +72,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		6E86D6ED27EEB38A0077B95F /* Lifespan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lifespan.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		6E86D6F127EEB38A0077B95F /* Lifespan WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lifespan WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E86D6ED27EEB38A0077B95F /* Lifespanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lifespanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E86D6F127EEB38A0077B95F /* Lifespanner WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lifespanner WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E86D6F627EEB38B0077B95F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		6E86D6FC27EEB38B0077B95F /* Lifespan WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Lifespan WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E86D6FC27EEB38B0077B95F /* Lifespanner WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Lifespanner WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E86D70127EEB38B0077B95F /* LifespanApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifespanApp.swift; sourceTree = "<group>"; };
 		6E86D70327EEB38B0077B95F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6E86D70527EEB38B0077B95F /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
@@ -111,8 +111,8 @@
 		6E86D6E627EEB38A0077B95F = {
 			isa = PBXGroup;
 			children = (
-				6E86D6F527EEB38A0077B95F /* Lifespan WatchKit App */,
-				6E86D70027EEB38B0077B95F /* Lifespan WatchKit Extension */,
+				6E86D6F527EEB38A0077B95F /* Lifespanner WatchKit App */,
+				6E86D70027EEB38B0077B95F /* Lifespanner WatchKit Extension */,
 				6E86D6EE27EEB38A0077B95F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -120,22 +120,22 @@
 		6E86D6EE27EEB38A0077B95F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6E86D6ED27EEB38A0077B95F /* Lifespan.app */,
-				6E86D6F127EEB38A0077B95F /* Lifespan WatchKit App.app */,
-				6E86D6FC27EEB38B0077B95F /* Lifespan WatchKit Extension.appex */,
+				6E86D6ED27EEB38A0077B95F /* Lifespanner.app */,
+				6E86D6F127EEB38A0077B95F /* Lifespanner WatchKit App.app */,
+				6E86D6FC27EEB38B0077B95F /* Lifespanner WatchKit Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6E86D6F527EEB38A0077B95F /* Lifespan WatchKit App */ = {
+		6E86D6F527EEB38A0077B95F /* Lifespanner WatchKit App */ = {
 			isa = PBXGroup;
 			children = (
 				6E86D6F627EEB38B0077B95F /* Assets.xcassets */,
 			);
-			path = "Lifespan WatchKit App";
+			path = "Lifespanner WatchKit App";
 			sourceTree = "<group>";
 		};
-		6E86D70027EEB38B0077B95F /* Lifespan WatchKit Extension */ = {
+		6E86D70027EEB38B0077B95F /* Lifespanner WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
 				6E86D70127EEB38B0077B95F /* LifespanApp.swift */,
@@ -149,7 +149,7 @@
 				6E86D71127EEB38D0077B95F /* PushNotificationPayload.apns */,
 				6E86D70D27EEB38D0077B95F /* Preview Content */,
 			);
-			path = "Lifespan WatchKit Extension";
+			path = "Lifespanner WatchKit Extension";
 			sourceTree = "<group>";
 		};
 		6E86D70D27EEB38D0077B95F /* Preview Content */ = {
@@ -188,9 +188,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6E86D6EC27EEB38A0077B95F /* Lifespan */ = {
+		6E86D6EC27EEB38A0077B95F /* Lifespanner */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6E86D71C27EEB38D0077B95F /* Build configuration list for PBXNativeTarget "Lifespan" */;
+			buildConfigurationList = 6E86D71C27EEB38D0077B95F /* Build configuration list for PBXNativeTarget "Lifespanner" */;
 			buildPhases = (
 				6E86D6EB27EEB38A0077B95F /* Resources */,
 				6E86D71B27EEB38D0077B95F /* Embed Watch Content */,
@@ -200,14 +200,14 @@
 			dependencies = (
 				6E86D6F427EEB38A0077B95F /* PBXTargetDependency */,
 			);
-			name = Lifespan;
+			name = Lifespanner;
 			productName = Lifespan;
-			productReference = 6E86D6ED27EEB38A0077B95F /* Lifespan.app */;
+			productReference = 6E86D6ED27EEB38A0077B95F /* Lifespanner.app */;
 			productType = "com.apple.product-type.application.watchapp2-container";
 		};
-		6E86D6F027EEB38A0077B95F /* Lifespan WatchKit App */ = {
+		6E86D6F027EEB38A0077B95F /* Lifespanner WatchKit App */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6E86D71827EEB38D0077B95F /* Build configuration list for PBXNativeTarget "Lifespan WatchKit App" */;
+			buildConfigurationList = 6E86D71827EEB38D0077B95F /* Build configuration list for PBXNativeTarget "Lifespanner WatchKit App" */;
 			buildPhases = (
 				6E86D6EF27EEB38A0077B95F /* Resources */,
 				6E86D71727EEB38D0077B95F /* Embed App Extensions */,
@@ -217,14 +217,14 @@
 			dependencies = (
 				6E86D6FF27EEB38B0077B95F /* PBXTargetDependency */,
 			);
-			name = "Lifespan WatchKit App";
+			name = "Lifespanner WatchKit App";
 			productName = "Lifespan WatchKit App";
-			productReference = 6E86D6F127EEB38A0077B95F /* Lifespan WatchKit App.app */;
+			productReference = 6E86D6F127EEB38A0077B95F /* Lifespanner WatchKit App.app */;
 			productType = "com.apple.product-type.application.watchapp2";
 		};
-		6E86D6FB27EEB38B0077B95F /* Lifespan WatchKit Extension */ = {
+		6E86D6FB27EEB38B0077B95F /* Lifespanner WatchKit Extension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6E86D71427EEB38D0077B95F /* Build configuration list for PBXNativeTarget "Lifespan WatchKit Extension" */;
+			buildConfigurationList = 6E86D71427EEB38D0077B95F /* Build configuration list for PBXNativeTarget "Lifespanner WatchKit Extension" */;
 			buildPhases = (
 				6E86D6F827EEB38B0077B95F /* Sources */,
 				6E86D6F927EEB38B0077B95F /* Frameworks */,
@@ -234,9 +234,9 @@
 			);
 			dependencies = (
 			);
-			name = "Lifespan WatchKit Extension";
+			name = "Lifespanner WatchKit Extension";
 			productName = "Lifespan WatchKit Extension";
-			productReference = 6E86D6FC27EEB38B0077B95F /* Lifespan WatchKit Extension.appex */;
+			productReference = 6E86D6FC27EEB38B0077B95F /* Lifespanner WatchKit Extension.appex */;
 			productType = "com.apple.product-type.watchkit2-extension";
 		};
 /* End PBXNativeTarget section */
@@ -260,7 +260,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 6E86D6EA27EEB38A0077B95F /* Build configuration list for PBXProject "Lifespan" */;
+			buildConfigurationList = 6E86D6EA27EEB38A0077B95F /* Build configuration list for PBXProject "Lifespanner" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -273,9 +273,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6E86D6EC27EEB38A0077B95F /* Lifespan */,
-				6E86D6F027EEB38A0077B95F /* Lifespan WatchKit App */,
-				6E86D6FB27EEB38B0077B95F /* Lifespan WatchKit Extension */,
+				6E86D6EC27EEB38A0077B95F /* Lifespanner */,
+				6E86D6F027EEB38A0077B95F /* Lifespanner WatchKit App */,
+				6E86D6FB27EEB38B0077B95F /* Lifespanner WatchKit Extension */,
 			);
 		};
 /* End PBXProject section */
@@ -335,12 +335,12 @@
 /* Begin PBXTargetDependency section */
 		6E86D6F427EEB38A0077B95F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6E86D6F027EEB38A0077B95F /* Lifespan WatchKit App */;
+			target = 6E86D6F027EEB38A0077B95F /* Lifespanner WatchKit App */;
 			targetProxy = 6E86D6F327EEB38A0077B95F /* PBXContainerItemProxy */;
 		};
 		6E86D6FF27EEB38B0077B95F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6E86D6FB27EEB38B0077B95F /* Lifespan WatchKit Extension */;
+			target = 6E86D6FB27EEB38B0077B95F /* Lifespanner WatchKit Extension */;
 			targetProxy = 6E86D6FE27EEB38B0077B95F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -466,13 +466,13 @@
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Lifespan WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Lifespanner WatchKit Extension/Preview Content\"";
 				DEVELOPMENT_TEAM = N7984FV22G;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Lifespan WatchKit Extension/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "Lifespan WatchKit Extension";
-				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_FILE = "Lifespanner WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Lifespanner WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = Lifespanner_WatchKit_Extension.ComplicationController;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_WKWatchOnly = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -481,7 +481,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = HH.Studios.Lifespan.watchkitapp.watchkitextension;
+				PRODUCT_BUNDLE_IDENTIFIER = HH.Studios.Lifespanner.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -498,13 +498,13 @@
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Lifespan WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Lifespanner WatchKit Extension/Preview Content\"";
 				DEVELOPMENT_TEAM = N7984FV22G;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Lifespan WatchKit Extension/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "Lifespan WatchKit Extension";
-				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_FILE = "Lifespanner WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Lifespanner WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = Lifespanner_WatchKit_Extension.ComplicationController;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_WKWatchOnly = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -513,7 +513,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = HH.Studios.Lifespan.watchkitapp.watchkitextension;
+				PRODUCT_BUNDLE_IDENTIFIER = HH.Studios.Lifespanner.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -534,11 +534,11 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = N7984FV22G;
 				GENERATE_INFOPLIST_FILE = YES;
-				IBSC_MODULE = Lifespan_WatchKit_Extension;
-				INFOPLIST_KEY_CFBundleDisplayName = "Lifespan WatchKit App";
+				IBSC_MODULE = Lifespanner_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "Lifespanner WatchKit App";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = HH.Studios.Lifespan.watchkitapp;
+				PRODUCT_BUNDLE_IDENTIFIER = HH.Studios.Lifespanner.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -559,11 +559,11 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = N7984FV22G;
 				GENERATE_INFOPLIST_FILE = YES;
-				IBSC_MODULE = Lifespan_WatchKit_Extension;
-				INFOPLIST_KEY_CFBundleDisplayName = "Lifespan WatchKit App";
+				IBSC_MODULE = Lifespanner_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "Lifespanner WatchKit App";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = HH.Studios.Lifespan.watchkitapp;
+				PRODUCT_BUNDLE_IDENTIFIER = HH.Studios.Lifespanner.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -581,7 +581,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = N7984FV22G;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = HH.Studios.Lifespan;
+				PRODUCT_BUNDLE_IDENTIFIER = HH.Studios.Lifespanner;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -594,7 +594,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = N7984FV22G;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = HH.Studios.Lifespan;
+				PRODUCT_BUNDLE_IDENTIFIER = HH.Studios.Lifespanner;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -603,7 +603,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6E86D6EA27EEB38A0077B95F /* Build configuration list for PBXProject "Lifespan" */ = {
+		6E86D6EA27EEB38A0077B95F /* Build configuration list for PBXProject "Lifespanner" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6E86D71227EEB38D0077B95F /* Debug */,
@@ -612,7 +612,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6E86D71427EEB38D0077B95F /* Build configuration list for PBXNativeTarget "Lifespan WatchKit Extension" */ = {
+		6E86D71427EEB38D0077B95F /* Build configuration list for PBXNativeTarget "Lifespanner WatchKit Extension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6E86D71527EEB38D0077B95F /* Debug */,
@@ -621,7 +621,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6E86D71827EEB38D0077B95F /* Build configuration list for PBXNativeTarget "Lifespan WatchKit App" */ = {
+		6E86D71827EEB38D0077B95F /* Build configuration list for PBXNativeTarget "Lifespanner WatchKit App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6E86D71927EEB38D0077B95F /* Debug */,
@@ -630,7 +630,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6E86D71C27EEB38D0077B95F /* Build configuration list for PBXNativeTarget "Lifespan" */ = {
+		6E86D71C27EEB38D0077B95F /* Build configuration list for PBXNativeTarget "Lifespanner" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6E86D71D27EEB38D0077B95F /* Debug */,
