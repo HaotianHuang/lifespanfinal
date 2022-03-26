@@ -1,0 +1,645 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6E86D6F227EEB38A0077B95F /* Lifespan WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 6E86D6F127EEB38A0077B95F /* Lifespan WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		6E86D6F727EEB38B0077B95F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E86D6F627EEB38B0077B95F /* Assets.xcassets */; };
+		6E86D6FD27EEB38B0077B95F /* Lifespan WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 6E86D6FC27EEB38B0077B95F /* Lifespan WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		6E86D70227EEB38B0077B95F /* LifespanApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E86D70127EEB38B0077B95F /* LifespanApp.swift */; };
+		6E86D70427EEB38B0077B95F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E86D70327EEB38B0077B95F /* ContentView.swift */; };
+		6E86D70627EEB38B0077B95F /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E86D70527EEB38B0077B95F /* NotificationController.swift */; };
+		6E86D70827EEB38B0077B95F /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E86D70727EEB38B0077B95F /* NotificationView.swift */; };
+		6E86D70A27EEB38B0077B95F /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E86D70927EEB38B0077B95F /* ComplicationController.swift */; };
+		6E86D70C27EEB38D0077B95F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E86D70B27EEB38D0077B95F /* Assets.xcassets */; };
+		6E86D70F27EEB38D0077B95F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E86D70E27EEB38D0077B95F /* Preview Assets.xcassets */; };
+		6E86D72327EEB4000077B95F /* InputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E86D72227EEB4000077B95F /* InputView.swift */; };
+		6E86D72527EEB4060077B95F /* BasicsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E86D72427EEB4060077B95F /* BasicsView.swift */; };
+		6E86D72727EEB4100077B95F /* ExerciseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E86D72627EEB4100077B95F /* ExerciseView.swift */; };
+		6E86D72927EEB41A0077B95F /* DrugsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E86D72827EEB41A0077B95F /* DrugsView.swift */; };
+		6E86D72B27EEB4250077B95F /* DietView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E86D72A27EEB4250077B95F /* DietView.swift */; };
+		6E86D72D27EEB42D0077B95F /* SleepView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E86D72C27EEB42D0077B95F /* SleepView.swift */; };
+		6E86D72F27EEB4330077B95F /* CalculateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E86D72E27EEB4330077B95F /* CalculateView.swift */; };
+		6E86D73127EEB43D0077B95F /* ClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E86D73027EEB43D0077B95F /* ClockView.swift */; };
+		6E86D73427EEB45B0077B95F /* LifespanModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E86D73327EEB45B0077B95F /* LifespanModel.swift */; };
+		6E86D73627EEB5450077B95F /* BMIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E86D73527EEB5450077B95F /* BMIView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6E86D6F327EEB38A0077B95F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E86D6E727EEB38A0077B95F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E86D6F027EEB38A0077B95F;
+			remoteInfo = "Lifespan WatchKit App";
+		};
+		6E86D6FE27EEB38B0077B95F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E86D6E727EEB38A0077B95F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E86D6FB27EEB38B0077B95F;
+			remoteInfo = "Lifespan WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6E86D71727EEB38D0077B95F /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				6E86D6FD27EEB38B0077B95F /* Lifespan WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E86D71B27EEB38D0077B95F /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				6E86D6F227EEB38A0077B95F /* Lifespan WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		6E86D6ED27EEB38A0077B95F /* Lifespan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lifespan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E86D6F127EEB38A0077B95F /* Lifespan WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lifespan WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E86D6F627EEB38B0077B95F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6E86D6FC27EEB38B0077B95F /* Lifespan WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Lifespan WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E86D70127EEB38B0077B95F /* LifespanApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifespanApp.swift; sourceTree = "<group>"; };
+		6E86D70327EEB38B0077B95F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6E86D70527EEB38B0077B95F /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		6E86D70727EEB38B0077B95F /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		6E86D70927EEB38B0077B95F /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		6E86D70B27EEB38D0077B95F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6E86D70E27EEB38D0077B95F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6E86D71027EEB38D0077B95F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E86D71127EEB38D0077B95F /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		6E86D72227EEB4000077B95F /* InputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputView.swift; sourceTree = "<group>"; };
+		6E86D72427EEB4060077B95F /* BasicsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicsView.swift; sourceTree = "<group>"; };
+		6E86D72627EEB4100077B95F /* ExerciseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseView.swift; sourceTree = "<group>"; };
+		6E86D72827EEB41A0077B95F /* DrugsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrugsView.swift; sourceTree = "<group>"; };
+		6E86D72A27EEB4250077B95F /* DietView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DietView.swift; sourceTree = "<group>"; };
+		6E86D72C27EEB42D0077B95F /* SleepView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepView.swift; sourceTree = "<group>"; };
+		6E86D72E27EEB4330077B95F /* CalculateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculateView.swift; sourceTree = "<group>"; };
+		6E86D73027EEB43D0077B95F /* ClockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockView.swift; sourceTree = "<group>"; };
+		6E86D73327EEB45B0077B95F /* LifespanModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifespanModel.swift; sourceTree = "<group>"; };
+		6E86D73527EEB5450077B95F /* BMIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMIView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6E86D6F927EEB38B0077B95F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6E86D6E627EEB38A0077B95F = {
+			isa = PBXGroup;
+			children = (
+				6E86D6F527EEB38A0077B95F /* Lifespan WatchKit App */,
+				6E86D70027EEB38B0077B95F /* Lifespan WatchKit Extension */,
+				6E86D6EE27EEB38A0077B95F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6E86D6EE27EEB38A0077B95F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6E86D6ED27EEB38A0077B95F /* Lifespan.app */,
+				6E86D6F127EEB38A0077B95F /* Lifespan WatchKit App.app */,
+				6E86D6FC27EEB38B0077B95F /* Lifespan WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6E86D6F527EEB38A0077B95F /* Lifespan WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				6E86D6F627EEB38B0077B95F /* Assets.xcassets */,
+			);
+			path = "Lifespan WatchKit App";
+			sourceTree = "<group>";
+		};
+		6E86D70027EEB38B0077B95F /* Lifespan WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				6E86D70127EEB38B0077B95F /* LifespanApp.swift */,
+				6E86D73227EEB4420077B95F /* ViewModel */,
+				6E86D71F27EEB3A60077B95F /* Views */,
+				6E86D70527EEB38B0077B95F /* NotificationController.swift */,
+				6E86D70727EEB38B0077B95F /* NotificationView.swift */,
+				6E86D70927EEB38B0077B95F /* ComplicationController.swift */,
+				6E86D70B27EEB38D0077B95F /* Assets.xcassets */,
+				6E86D71027EEB38D0077B95F /* Info.plist */,
+				6E86D71127EEB38D0077B95F /* PushNotificationPayload.apns */,
+				6E86D70D27EEB38D0077B95F /* Preview Content */,
+			);
+			path = "Lifespan WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		6E86D70D27EEB38D0077B95F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6E86D70E27EEB38D0077B95F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6E86D71F27EEB3A60077B95F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6E86D70327EEB38B0077B95F /* ContentView.swift */,
+				6E86D72227EEB4000077B95F /* InputView.swift */,
+				6E86D72427EEB4060077B95F /* BasicsView.swift */,
+				6E86D73527EEB5450077B95F /* BMIView.swift */,
+				6E86D72627EEB4100077B95F /* ExerciseView.swift */,
+				6E86D72827EEB41A0077B95F /* DrugsView.swift */,
+				6E86D72A27EEB4250077B95F /* DietView.swift */,
+				6E86D72C27EEB42D0077B95F /* SleepView.swift */,
+				6E86D72E27EEB4330077B95F /* CalculateView.swift */,
+				6E86D73027EEB43D0077B95F /* ClockView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6E86D73227EEB4420077B95F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				6E86D73327EEB45B0077B95F /* LifespanModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6E86D6EC27EEB38A0077B95F /* Lifespan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E86D71C27EEB38D0077B95F /* Build configuration list for PBXNativeTarget "Lifespan" */;
+			buildPhases = (
+				6E86D6EB27EEB38A0077B95F /* Resources */,
+				6E86D71B27EEB38D0077B95F /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E86D6F427EEB38A0077B95F /* PBXTargetDependency */,
+			);
+			name = Lifespan;
+			productName = Lifespan;
+			productReference = 6E86D6ED27EEB38A0077B95F /* Lifespan.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		6E86D6F027EEB38A0077B95F /* Lifespan WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E86D71827EEB38D0077B95F /* Build configuration list for PBXNativeTarget "Lifespan WatchKit App" */;
+			buildPhases = (
+				6E86D6EF27EEB38A0077B95F /* Resources */,
+				6E86D71727EEB38D0077B95F /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E86D6FF27EEB38B0077B95F /* PBXTargetDependency */,
+			);
+			name = "Lifespan WatchKit App";
+			productName = "Lifespan WatchKit App";
+			productReference = 6E86D6F127EEB38A0077B95F /* Lifespan WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		6E86D6FB27EEB38B0077B95F /* Lifespan WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E86D71427EEB38D0077B95F /* Build configuration list for PBXNativeTarget "Lifespan WatchKit Extension" */;
+			buildPhases = (
+				6E86D6F827EEB38B0077B95F /* Sources */,
+				6E86D6F927EEB38B0077B95F /* Frameworks */,
+				6E86D6FA27EEB38B0077B95F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lifespan WatchKit Extension";
+			productName = "Lifespan WatchKit Extension";
+			productReference = 6E86D6FC27EEB38B0077B95F /* Lifespan WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6E86D6E727EEB38A0077B95F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					6E86D6EC27EEB38A0077B95F = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					6E86D6F027EEB38A0077B95F = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					6E86D6FB27EEB38B0077B95F = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 6E86D6EA27EEB38A0077B95F /* Build configuration list for PBXProject "Lifespan" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6E86D6E627EEB38A0077B95F;
+			productRefGroup = 6E86D6EE27EEB38A0077B95F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6E86D6EC27EEB38A0077B95F /* Lifespan */,
+				6E86D6F027EEB38A0077B95F /* Lifespan WatchKit App */,
+				6E86D6FB27EEB38B0077B95F /* Lifespan WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6E86D6EB27EEB38A0077B95F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E86D6EF27EEB38A0077B95F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E86D6F727EEB38B0077B95F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E86D6FA27EEB38B0077B95F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E86D70F27EEB38D0077B95F /* Preview Assets.xcassets in Resources */,
+				6E86D70C27EEB38D0077B95F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6E86D6F827EEB38B0077B95F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E86D72D27EEB42D0077B95F /* SleepView.swift in Sources */,
+				6E86D72B27EEB4250077B95F /* DietView.swift in Sources */,
+				6E86D72727EEB4100077B95F /* ExerciseView.swift in Sources */,
+				6E86D70627EEB38B0077B95F /* NotificationController.swift in Sources */,
+				6E86D70427EEB38B0077B95F /* ContentView.swift in Sources */,
+				6E86D72527EEB4060077B95F /* BasicsView.swift in Sources */,
+				6E86D70A27EEB38B0077B95F /* ComplicationController.swift in Sources */,
+				6E86D72F27EEB4330077B95F /* CalculateView.swift in Sources */,
+				6E86D72327EEB4000077B95F /* InputView.swift in Sources */,
+				6E86D73427EEB45B0077B95F /* LifespanModel.swift in Sources */,
+				6E86D70227EEB38B0077B95F /* LifespanApp.swift in Sources */,
+				6E86D73127EEB43D0077B95F /* ClockView.swift in Sources */,
+				6E86D73627EEB5450077B95F /* BMIView.swift in Sources */,
+				6E86D72927EEB41A0077B95F /* DrugsView.swift in Sources */,
+				6E86D70827EEB38B0077B95F /* NotificationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6E86D6F427EEB38A0077B95F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E86D6F027EEB38A0077B95F /* Lifespan WatchKit App */;
+			targetProxy = 6E86D6F327EEB38A0077B95F /* PBXContainerItemProxy */;
+		};
+		6E86D6FF27EEB38B0077B95F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E86D6FB27EEB38B0077B95F /* Lifespan WatchKit Extension */;
+			targetProxy = 6E86D6FE27EEB38B0077B95F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6E86D71227EEB38D0077B95F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6E86D71327EEB38D0077B95F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6E86D71527EEB38D0077B95F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Lifespan WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = N7984FV22G;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Lifespan WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Lifespan WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = HH.Studios.Lifespan.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Debug;
+		};
+		6E86D71627EEB38D0077B95F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Lifespan WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = N7984FV22G;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Lifespan WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Lifespan WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = HH.Studios.Lifespan.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Release;
+		};
+		6E86D71927EEB38D0077B95F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N7984FV22G;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = Lifespan_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "Lifespan WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = HH.Studios.Lifespan.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Debug;
+		};
+		6E86D71A27EEB38D0077B95F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N7984FV22G;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = Lifespan_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "Lifespan WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = HH.Studios.Lifespan.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Release;
+		};
+		6E86D71D27EEB38D0077B95F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N7984FV22G;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = HH.Studios.Lifespan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		6E86D71E27EEB38D0077B95F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N7984FV22G;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = HH.Studios.Lifespan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6E86D6EA27EEB38A0077B95F /* Build configuration list for PBXProject "Lifespan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E86D71227EEB38D0077B95F /* Debug */,
+				6E86D71327EEB38D0077B95F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E86D71427EEB38D0077B95F /* Build configuration list for PBXNativeTarget "Lifespan WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E86D71527EEB38D0077B95F /* Debug */,
+				6E86D71627EEB38D0077B95F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E86D71827EEB38D0077B95F /* Build configuration list for PBXNativeTarget "Lifespan WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E86D71927EEB38D0077B95F /* Debug */,
+				6E86D71A27EEB38D0077B95F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E86D71C27EEB38D0077B95F /* Build configuration list for PBXNativeTarget "Lifespan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E86D71D27EEB38D0077B95F /* Debug */,
+				6E86D71E27EEB38D0077B95F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6E86D6E727EEB38A0077B95F /* Project object */;
+}
