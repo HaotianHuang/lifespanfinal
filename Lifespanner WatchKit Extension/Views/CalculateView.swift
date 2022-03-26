@@ -15,6 +15,7 @@ struct CalculateView: View {
 
     var body: some View {
 
+        
         Button{
             model.lifeExpectancy = model.CalculateLifeExpectancyV2()
             model.completedQuestions = true

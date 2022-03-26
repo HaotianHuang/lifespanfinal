@@ -39,6 +39,7 @@ struct ClockView: View {
     let degrees = 360
     
     var body: some View {
+    
         VStack{
             HStack{
                 
@@ -62,25 +63,25 @@ struct ClockView: View {
                 
                 Circle()
                     .foregroundColor(.gray)
-                    .frame(width: 140, height: 140)
+                    .frame(width: 120, height: 120)
                 
                 Arc(startAngle: .degrees(model.endAngle), endAngle: .degrees(0), clockwise: true)
                   .stroke(gradient, lineWidth: 10)
-                  .frame(width: 130, height: 130)
+                  .frame(width: 110, height: 110)
                   .rotationEffect(Angle(degrees: 270))
 
                 
                 Circle()
                     .foregroundColor(.black)
-                    .frame(width: 120, height: 120)
+                    .frame(width: 100, height: 100)
 
                 VStack(spacing: 0){
                     Text(String(model.lifeExpectancy))
-                        .font(.system(size: 48, weight: .regular))
+                        .font(.system(size: 40, weight: .regular))
 
                     
                       Text("ESTIMATED LIFESPAN")
-                        .font(.system(size: 8, weight: .light))
+                        .font(.system(size: 7, weight: .light))
                           .fontWeight(.regular)
                
                 }

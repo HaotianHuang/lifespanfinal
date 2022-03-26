@@ -27,6 +27,7 @@
 		6E86D73127EEB43D0077B95F /* ClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E86D73027EEB43D0077B95F /* ClockView.swift */; };
 		6E86D73427EEB45B0077B95F /* LifespanModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E86D73327EEB45B0077B95F /* LifespanModel.swift */; };
 		6E86D73627EEB5450077B95F /* BMIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E86D73527EEB5450077B95F /* BMIView.swift */; };
+		6E86D73827EEBFC60077B95F /* TestClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E86D73727EEBFC60077B95F /* TestClockView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -95,6 +96,7 @@
 		6E86D73027EEB43D0077B95F /* ClockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockView.swift; sourceTree = "<group>"; };
 		6E86D73327EEB45B0077B95F /* LifespanModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifespanModel.swift; sourceTree = "<group>"; };
 		6E86D73527EEB5450077B95F /* BMIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMIView.swift; sourceTree = "<group>"; };
+		6E86D73727EEBFC60077B95F /* TestClockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestClockView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -173,6 +175,7 @@
 				6E86D72C27EEB42D0077B95F /* SleepView.swift */,
 				6E86D72E27EEB4330077B95F /* CalculateView.swift */,
 				6E86D73027EEB43D0077B95F /* ClockView.swift */,
+				6E86D73727EEBFC60077B95F /* TestClockView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -317,6 +320,7 @@
 				6E86D72727EEB4100077B95F /* ExerciseView.swift in Sources */,
 				6E86D70627EEB38B0077B95F /* NotificationController.swift in Sources */,
 				6E86D70427EEB38B0077B95F /* ContentView.swift in Sources */,
+				6E86D73827EEBFC60077B95F /* TestClockView.swift in Sources */,
 				6E86D72527EEB4060077B95F /* BasicsView.swift in Sources */,
 				6E86D70A27EEB38B0077B95F /* ComplicationController.swift in Sources */,
 				6E86D72F27EEB4330077B95F /* CalculateView.swift in Sources */,
